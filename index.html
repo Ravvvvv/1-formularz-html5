@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form action="wstaw strone tutaj " method="post">
+        <label for="name">Imie:</label>
+        <input type="text" name="name" id="name" placeholder="podaj imie" required maxlength="50"><br>
+
+        <label for="name">Nazwisko:</label>
+        <input type="text" name="lname" id="lname" placeholder="podaj nazwisko" required maxlength="50"><br>
+
+        <Label for="email">E-mail:</Label>
+        <Input type="email" name="email" id="emial" placeholder="podaj e-mail" required><br>
+
+        <label for="phone">Telefon:</label>
+        <input type="tel" name="phone" id="phone" placeholder="+47" required maxlength="8"><br>
+        <select name="miasto" id="miasto"><br>
+            <option value="Warszawa">Warszawa</option>
+            <option value="Krakow">Krakow</option>
+            <option value="Gdansk">Gdansk</option>
+            <option value="Krakow">Krakow</option>
+            <option value="Sokolow-Podlaski" selected>Sokolow Podlaski</option>
+            <option value="Oslo">Oslo</option>
+            <option value="Inne">Inne</option>
+        </select><br>
+        <input type="radio" name="gender">Mezczyzna<br>
+        <input type="radio" name="gender">Kobieta<br>
+
+        <input type="checkbox" name="agreement" required>Zgoda na przetwarzenie danych <br>
+
+        <textarea name="message" maxlength="1000" placeholder="Tresc wiadomosci"></textarea><br>
+        <input type="submit" value="Wyślij">
+    </form>
+</body>
+
+</html>
