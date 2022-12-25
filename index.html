@@ -14,15 +14,15 @@
         <label for="name">Imie:</label>
         <input type="text" name="name" id="name" placeholder="podaj imie" required maxlength="50"><br>
 
-        <label for="name">Nazwisko:</label>
+        <label for="lname">Nazwisko:</label>
         <input type="text" name="lname" id="lname" placeholder="podaj nazwisko" required maxlength="50"><br>
 
-        <Label for="email">E-mail:</Label>
-        <Input type="email" name="email" id="emial" placeholder="podaj e-mail" required><br>
+        <label for="email">E-mail:</Label>
+        <input type="email" name="email" id="email" placeholder="podaj e-mail" required><br>
 
         <label for="phone">Telefon:</label>
         <input type="tel" name="phone" id="phone" placeholder="+47" required maxlength="8"><br>
-        <select name="miasto" id="miasto"><br>
+        <select name="miasto" id="miasto">
             <option value="Warszawa">Warszawa</option>
             <option value="Krakow">Krakow</option>
             <option value="Gdansk">Gdansk</option>
@@ -31,9 +31,11 @@
             <option value="Oslo">Oslo</option>
             <option value="Inne">Inne</option>
         </select><br>
-        <input type="radio" name="gender">Mezczyzna<br>
-        <input type="radio" name="gender">Kobieta<br>
-
+        <label for="gender">Mezczyzna:</label>
+        <input type="radio" name="gender"><br>
+        <label for="gender">Kobieta:
+        <input type="radio" name="gender"><br>
+        <label for="agreement">Zgoda:</label>
         <input type="checkbox" name="agreement" required>Zgoda na przetwarzenie danych <br>
 
         <textarea name="message" maxlength="1000" placeholder="Tresc wiadomosci"></textarea><br>
